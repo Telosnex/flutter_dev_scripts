@@ -203,7 +203,7 @@ void printResults(
       sortedTests.where((t) => t.value > config.slowTestThreshold).toList();
   if (slowTests.isNotEmpty) {
     print(
-        '\n${slowTests.length} tests exceeded the ${config.slowTestThreshold}ms threshold:');
+        '\n${slowTests.length} tests exceeded the ${config.slowTestThreshold}ms threshold.');
   }
 }
 
